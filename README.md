@@ -6,7 +6,7 @@ The preprocessed aspect-level datasets can be downloaded at [[Download]](https:/
 
 The pre-trained Glove vectors (on 840B tokens) are used for initializing word embeddings. You can download the extracted subset of Glove vectors for each dataset at [[Download]](https://drive.google.com/open?id=1f8OlsHv82tIX0CyxbUqywew08StUjVLp), the size of which is much smaller. The zip file should be decompressed and put in the main folder.
 
-## Training and Evaluation
+## Training and evaluation
 
 ### Pretraining on document-level dataset
 The pretrained weights from document-level examples used in our experiments are provided at pretrained_weights/. You can use them directly for initialising aspect-level models.
