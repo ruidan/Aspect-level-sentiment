@@ -1,5 +1,5 @@
 # Aspect-level Sentiment Classification
-Code and dataset for ACL2018 paper ‘‘Exploiting Document Knowledge for Aspect-level Sentiment Classification’’ [(pdf)](https://arxiv.org/abs/1806.04346). 
+Code and dataset for ACL2018 [[paper]](https://arxiv.org/abs/1806.04346) ‘‘Exploiting Document Knowledge for Aspect-level Sentiment Classification’’. 
 
 ## Data
 The preprocessed aspect-level datasets can be downloaded at [[Download]](https://drive.google.com/open?id=1e7WnaWWDggJ8r8t3FhS4RSp88Ev2gXYs), and the document-level datasets can be downloaded at [[Download]](https://drive.google.com/open?id=15NTGPsO_E8dwti_QILNMwLQnUaTn3auq). The zip files should be decompressed and put in the main folder.
