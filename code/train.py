@@ -162,9 +162,6 @@ from tqdm import tqdm
 
 logger.info('--------------------------------------------------------------------------------------------------------------------------')
 
-best_acc = 0
-final_pred = None
-
 train_gen = batch_generator([train_x, train_y, train_aspect], [pretrain_data, pretrain_label], batch_size=args.batch_size)
 batches_per_epoch = len(train_x) / args.batch_size
 
@@ -200,12 +197,6 @@ for ii in xrange(args.epochs):
     logger.info('[Testing] loss: %.4f, acc: %.4f, macro_f1: %.4f' % (test_loss, test_metric, test_fs))
 
 
-    if dev_metric > best_acc:
-        best_acc = dev_metric
-        final_pred = y_pred
-        print '---------- Saved -----------'
-        logger.info('---------- Saved -----------')
-
-
+    
 
 
